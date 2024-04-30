@@ -4,6 +4,8 @@ import Footer from "./Footer/Footer";
 import Login from "./Login";
 import Signup from "./Signup";
 import Swiper from "./Swiper";
+import Input from "./Input";
+import Button from "./Button";
 
 export {
     Header,
@@ -12,4 +14,6 @@ export {
     Login,
     Signup,
     Swiper,
+    Input,
+    Button,
 }
