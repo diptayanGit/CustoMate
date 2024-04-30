@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { Header, Swiper } from './components'
+import { Header, Login, Swiper } from './components'
 
 function App() {
 
@@ -8,6 +8,7 @@ function App() {
     <>
     <Header/>
     <Swiper />
+    {/* <Login /> added login only for checking */}
     </>
   )
 }
