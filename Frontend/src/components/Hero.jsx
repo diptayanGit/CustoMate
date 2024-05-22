@@ -5,7 +5,7 @@ import hero_img from './Assets/hero_image.png'
 
 function Hero(){
     return (
-        <div className="h-screen bg-gradient-to-b from-custom-start to-custom-end flex">
+        <div className="h-screen bg-custom-gradient flex">
             <div className="flex flex-1 flex-col justify-center gap-5 pl-44 leading-[1.1]">
                 <h2 className="text-[#090909] text-[26px] font-semibold">New Arrivals Only</h2>
                 <div>

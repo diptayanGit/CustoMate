@@ -10,6 +10,9 @@ export default {
         'custom-start': '#fde1ff',
         'custom-end': '#e1ffea22',
       },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%)',
+      },
     },
   },
   plugins: [],

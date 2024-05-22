@@ -2,7 +2,7 @@ import React from "react";
 import exclusive_image from './Assets/exclusive_image.png'
 function Offers(){
     return (
-        <div className="w-[80%] h-[70vh] flex m-auto py-0 px-32 mb-40 bg-gradient-to-b from-custom-start to-custom-end">
+        <div className="w-[80%] h-[70vh] flex m-auto py-0 px-32 mb-20 bg-custom-gradient">
             <div className="flex flex-1 flex-col justify-center gap-4">
                <h1 className="text-[#171717] text-7xl font-semibold">Exclusive</h1>
                <h1 className="text-[#171717] text-7xl font-semibold">Offers for you</h1>

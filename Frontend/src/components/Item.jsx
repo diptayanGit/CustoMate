@@ -2,7 +2,7 @@ import React from "react";
 
 function Item({image, name, new_price, old_price}){
     return (
-        <div className="w-80 transform transition duration-[600ms] hover:scale-105">
+        <div className="w-80 cursor-pointer transform transition duration-[600ms] hover:scale-105">
             <img src={image} alt="" />
             <p className="my-1.5 mx-0">{name}</p>
             <div className="flex gap-5">
