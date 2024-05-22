@@ -16,7 +16,7 @@ function Hero(){
                     <p className="text-[#171717] text-[100px] font-bold">Collections</p>
                     <p className="text-[#171717] text-[100px] font-bold">For everyone</p>
                 </div>
-                <div className="flex justify-center items-center gap-4 w-[310px] h-[70px] rounded-[75px] mt-8 bg-[#ff4141] text-white text-[22px] font-medium">
+                <div className="flex justify-center items-center gap-4 w-[310px] h-[70px] rounded-[75px] mt-8 bg-[#ff4141] text-white text-[22px] font-medium cursor-pointer">
                     <div>Latest Collections</div>
                     <img src={arrow_icon} alt="" />
                 </div>
