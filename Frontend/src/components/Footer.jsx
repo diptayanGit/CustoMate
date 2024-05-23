@@ -3,7 +3,7 @@ import footer_logo from './Assets/logo_big.png'
 
 function Footer(){
     return(
-        <div className="flex flex-col justify-center items-center gap-10">
+        <div className="flex flex-col justify-center items-center mt-8 gap-10">
             <div className="flex items-center gap-5">
                 <img src={footer_logo} alt="" />
                 <p className="text-[#383838] text-5xl font-bold">SHOOPIE</p>
