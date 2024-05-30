@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Item({id, image, name, new_price, old_price}){
     return (
-        <Link to={`/product/${id}`}>
+        <Link to={`/product/${id}`} onClick={window.scrollTo(0,0)}>
             <div className="w-80 cursor-pointer transform transition duration-[600ms] hover:scale-105">
                 <img src={image} alt="" />
                 <p className="my-1.5 mx-0">{name}</p>

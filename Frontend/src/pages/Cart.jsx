@@ -1,9 +1,10 @@
 import React from "react";
+import CartList from "../components/CartList";
 
 function Cart(){
     return (
         <div>
-            Just created will be done soon
+            <CartList />
         </div>
     )
 }

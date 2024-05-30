@@ -3,6 +3,7 @@ import { StorageContext } from "../context/StorageContext";
 import { useParams } from "react-router-dom";
 import Breadcrum from "../components/Breadcrum";
 import ProductDisplay from "../components/ProductDisplay";
+import RelatedProducts from "../components/RelatedProducts";
 
 function Product(){
     const { all_product } = useContext(StorageContext);
@@ -12,6 +13,7 @@ function Product(){
         <div className="mx-40 mt-5">
             <Breadcrum {...product}/>
             <ProductDisplay {...product} />
+            <RelatedProducts />
         </div>
     )
 }
